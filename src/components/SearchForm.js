@@ -12,7 +12,8 @@ const SearchForm = ({ onSearch }) => {
 	const [returnDate, setReturnDate] = useState(new Date());
 
 	const onSearchPress = () => {
-		onSearch();
+		// console.log({ from, to, departureDate, returnDate });
+		onSearch({ from, to, departureDate, returnDate });
 	};
 	return (
 		<View className='shadow-md bg-white rounded-md p-2 gap-2'>

@@ -2,7 +2,6 @@ import { View, Text } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
 const FlightOptionItem = ({ flight }) => {
-	console.log(flight.to);
 	return (
 		<View className='flex flex-row items-center border border-gray-100 p-4 m-1 rounded-lg'>
 			<View className='flex-1 border-r-2 border-gray-300 gap-1'>
